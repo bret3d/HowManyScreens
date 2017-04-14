@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BAC6D7251EA17BA500C7FB53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC6D7241EA17BA500C7FB53 /* AppDelegate.swift */; };
+		BAC6D7271EA17BA500C7FB53 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC6D7261EA17BA500C7FB53 /* ViewController.swift */; };
+		BAC6D72A1EA17BA500C7FB53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAC6D7281EA17BA500C7FB53 /* Main.storyboard */; };
+		BAC6D72C1EA17BA500C7FB53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAC6D72B1EA17BA500C7FB53 /* Assets.xcassets */; };
+		BAC6D72F1EA17BA500C7FB53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAC6D72D1EA17BA500C7FB53 /* LaunchScreen.storyboard */; };
+		BAC6D73A1EA17BA500C7FB53 /* HowManyScreensTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC6D7391EA17BA500C7FB53 /* HowManyScreensTests.swift */; };
+		BAC6D7451EA17BA500C7FB53 /* HowManyScreensUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC6D7441EA17BA500C7FB53 /* HowManyScreensUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BAC6D7361EA17BA500C7FB53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAC6D7191EA17BA500C7FB53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAC6D7201EA17BA500C7FB53;
+			remoteInfo = HowManyScreens;
+		};
+		BAC6D7411EA17BA500C7FB53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAC6D7191EA17BA500C7FB53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAC6D7201EA17BA500C7FB53;
+			remoteInfo = HowManyScreens;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BAC6D7211EA17BA500C7FB53 /* HowManyScreens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HowManyScreens.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAC6D7241EA17BA500C7FB53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BAC6D7261EA17BA500C7FB53 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BAC6D7291EA17BA500C7FB53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BAC6D72B1EA17BA500C7FB53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BAC6D72E1EA17BA500C7FB53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BAC6D7301EA17BA500C7FB53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAC6D7351EA17BA500C7FB53 /* HowManyScreensTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HowManyScreensTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAC6D7391EA17BA500C7FB53 /* HowManyScreensTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowManyScreensTests.swift; sourceTree = "<group>"; };
+		BAC6D73B1EA17BA500C7FB53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAC6D7401EA17BA500C7FB53 /* HowManyScreensUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HowManyScreensUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAC6D7441EA17BA500C7FB53 /* HowManyScreensUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowManyScreensUITests.swift; sourceTree = "<group>"; };
+		BAC6D7461EA17BA500C7FB53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAC6D71E1EA17BA500C7FB53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAC6D7321EA17BA500C7FB53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAC6D73D1EA17BA500C7FB53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BAC6D7181EA17BA500C7FB53 = {
+			isa = PBXGroup;
+			children = (
+				BAC6D7231EA17BA500C7FB53 /* HowManyScreens */,
+				BAC6D7381EA17BA500C7FB53 /* HowManyScreensTests */,
+				BAC6D7431EA17BA500C7FB53 /* HowManyScreensUITests */,
+				BAC6D7221EA17BA500C7FB53 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BAC6D7221EA17BA500C7FB53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAC6D7211EA17BA500C7FB53 /* HowManyScreens.app */,
+				BAC6D7351EA17BA500C7FB53 /* HowManyScreensTests.xctest */,
+				BAC6D7401EA17BA500C7FB53 /* HowManyScreensUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAC6D7231EA17BA500C7FB53 /* HowManyScreens */ = {
+			isa = PBXGroup;
+			children = (
+				BAC6D7241EA17BA500C7FB53 /* AppDelegate.swift */,
+				BAC6D7261EA17BA500C7FB53 /* ViewController.swift */,
+				BAC6D7281EA17BA500C7FB53 /* Main.storyboard */,
+				BAC6D72B1EA17BA500C7FB53 /* Assets.xcassets */,
+				BAC6D72D1EA17BA500C7FB53 /* LaunchScreen.storyboard */,
+				BAC6D7301EA17BA500C7FB53 /* Info.plist */,
+			);
+			path = HowManyScreens;
+			sourceTree = "<group>";
+		};
+		BAC6D7381EA17BA500C7FB53 /* HowManyScreensTests */ = {
+			isa = PBXGroup;
+			children = (
+				BAC6D7391EA17BA500C7FB53 /* HowManyScreensTests.swift */,
+				BAC6D73B1EA17BA500C7FB53 /* Info.plist */,
+			);
+			path = HowManyScreensTests;
+			sourceTree = "<group>";
+		};
+		BAC6D7431EA17BA500C7FB53 /* HowManyScreensUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BAC6D7441EA17BA500C7FB53 /* HowManyScreensUITests.swift */,
+				BAC6D7461EA17BA500C7FB53 /* Info.plist */,
+			);
+			path = HowManyScreensUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAC6D7201EA17BA500C7FB53 /* HowManyScreens */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAC6D7491EA17BA500C7FB53 /* Build configuration list for PBXNativeTarget "HowManyScreens" */;
+			buildPhases = (
+				BAC6D71D1EA17BA500C7FB53 /* Sources */,
+				BAC6D71E1EA17BA500C7FB53 /* Frameworks */,
+				BAC6D71F1EA17BA500C7FB53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HowManyScreens;
+			productName = HowManyScreens;
+			productReference = BAC6D7211EA17BA500C7FB53 /* HowManyScreens.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BAC6D7341EA17BA500C7FB53 /* HowManyScreensTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAC6D74C1EA17BA500C7FB53 /* Build configuration list for PBXNativeTarget "HowManyScreensTests" */;
+			buildPhases = (
+				BAC6D7311EA17BA500C7FB53 /* Sources */,
+				BAC6D7321EA17BA500C7FB53 /* Frameworks */,
+				BAC6D7331EA17BA500C7FB53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAC6D7371EA17BA500C7FB53 /* PBXTargetDependency */,
+			);
+			name = HowManyScreensTests;
+			productName = HowManyScreensTests;
+			productReference = BAC6D7351EA17BA500C7FB53 /* HowManyScreensTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BAC6D73F1EA17BA500C7FB53 /* HowManyScreensUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAC6D74F1EA17BA500C7FB53 /* Build configuration list for PBXNativeTarget "HowManyScreensUITests" */;
+			buildPhases = (
+				BAC6D73C1EA17BA500C7FB53 /* Sources */,
+				BAC6D73D1EA17BA500C7FB53 /* Frameworks */,
+				BAC6D73E1EA17BA500C7FB53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAC6D7421EA17BA500C7FB53 /* PBXTargetDependency */,
+			);
+			name = HowManyScreensUITests;
+			productName = HowManyScreensUITests;
+			productReference = BAC6D7401EA17BA500C7FB53 /* HowManyScreensUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAC6D7191EA17BA500C7FB53 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "elfinda apps";
+				TargetAttributes = {
+					BAC6D7201EA17BA500C7FB53 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+					BAC6D7341EA17BA500C7FB53 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BAC6D7201EA17BA500C7FB53;
+					};
+					BAC6D73F1EA17BA500C7FB53 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BAC6D7201EA17BA500C7FB53;
+					};
+				};
+			};
+			buildConfigurationList = BAC6D71C1EA17BA500C7FB53 /* Build configuration list for PBXProject "HowManyScreens" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BAC6D7181EA17BA500C7FB53;
+			productRefGroup = BAC6D7221EA17BA500C7FB53 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAC6D7201EA17BA500C7FB53 /* HowManyScreens */,
+				BAC6D7341EA17BA500C7FB53 /* HowManyScreensTests */,
+				BAC6D73F1EA17BA500C7FB53 /* HowManyScreensUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAC6D71F1EA17BA500C7FB53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAC6D72F1EA17BA500C7FB53 /* LaunchScreen.storyboard in Resources */,
+				BAC6D72C1EA17BA500C7FB53 /* Assets.xcassets in Resources */,
+				BAC6D72A1EA17BA500C7FB53 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAC6D7331EA17BA500C7FB53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAC6D73E1EA17BA500C7FB53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAC6D71D1EA17BA500C7FB53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAC6D7271EA17BA500C7FB53 /* ViewController.swift in Sources */,
+				BAC6D7251EA17BA500C7FB53 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAC6D7311EA17BA500C7FB53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAC6D73A1EA17BA500C7FB53 /* HowManyScreensTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAC6D73C1EA17BA500C7FB53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAC6D7451EA17BA500C7FB53 /* HowManyScreensUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BAC6D7371EA17BA500C7FB53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAC6D7201EA17BA500C7FB53 /* HowManyScreens */;
+			targetProxy = BAC6D7361EA17BA500C7FB53 /* PBXContainerItemProxy */;
+		};
+		BAC6D7421EA17BA500C7FB53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAC6D7201EA17BA500C7FB53 /* HowManyScreens */;
+			targetProxy = BAC6D7411EA17BA500C7FB53 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BAC6D7281EA17BA500C7FB53 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAC6D7291EA17BA500C7FB53 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BAC6D72D1EA17BA500C7FB53 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAC6D72E1EA17BA500C7FB53 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BAC6D7471EA17BA500C7FB53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BAC6D7481EA17BA500C7FB53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAC6D74A1EA17BA500C7FB53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HowManyScreens/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elfinda.HowManyScreens;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BAC6D74B1EA17BA500C7FB53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HowManyScreens/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elfinda.HowManyScreens;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		BAC6D74D1EA17BA500C7FB53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HowManyScreensTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elfinda.HowManyScreensTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HowManyScreens.app/HowManyScreens";
+			};
+			name = Debug;
+		};
+		BAC6D74E1EA17BA500C7FB53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HowManyScreensTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elfinda.HowManyScreensTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HowManyScreens.app/HowManyScreens";
+			};
+			name = Release;
+		};
+		BAC6D7501EA17BA500C7FB53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = HowManyScreensUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elfinda.HowManyScreensUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HowManyScreens;
+			};
+			name = Debug;
+		};
+		BAC6D7511EA17BA500C7FB53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = HowManyScreensUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elfinda.HowManyScreensUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HowManyScreens;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAC6D71C1EA17BA500C7FB53 /* Build configuration list for PBXProject "HowManyScreens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAC6D7471EA17BA500C7FB53 /* Debug */,
+				BAC6D7481EA17BA500C7FB53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAC6D7491EA17BA500C7FB53 /* Build configuration list for PBXNativeTarget "HowManyScreens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAC6D74A1EA17BA500C7FB53 /* Debug */,
+				BAC6D74B1EA17BA500C7FB53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BAC6D74C1EA17BA500C7FB53 /* Build configuration list for PBXNativeTarget "HowManyScreensTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAC6D74D1EA17BA500C7FB53 /* Debug */,
+				BAC6D74E1EA17BA500C7FB53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BAC6D74F1EA17BA500C7FB53 /* Build configuration list for PBXNativeTarget "HowManyScreensUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAC6D7501EA17BA500C7FB53 /* Debug */,
+				BAC6D7511EA17BA500C7FB53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BAC6D7191EA17BA500C7FB53 /* Project object */;
+}
