@@ -8,18 +8,41 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+public class ViewController: UIViewController {
 
-    override func viewDidLoad() {
+    @IBOutlet weak var borderView: UIView!
+    var manager:ScreenManager?
+    var appleTVViewController:AppleTVViewController?
+    var isReset = true
+    
+    override public func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        
+        
+        borderView.layer.borderColor = UIColor.white.cgColor
+        
+        borderView.layer.borderWidth = 5.0
+        borderView.backgroundColor = UIColor.black
+        
+        manager = ScreenManager()
+        appleTVViewController = manager?.externalViewController as? AppleTVViewController
+    }
+    
+    @IBAction func screenTapped(_ sender: Any) {
+        
+        if let appleTVViewController = appleTVViewController {
+            if isReset {
+            appleTVViewController.startAnimation()
+            } else {
+                appleTVViewController.reset()
+            }
+            isReset = !isReset
+        }
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
+    
+    
+    
 }
 

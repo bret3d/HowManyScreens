@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA2687871EA272040015B4EB /* THX.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA2687861EA272040015B4EB /* THX.mp3 */; };
 		BAC6D7251EA17BA500C7FB53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC6D7241EA17BA500C7FB53 /* AppDelegate.swift */; };
 		BAC6D7271EA17BA500C7FB53 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC6D7261EA17BA500C7FB53 /* ViewController.swift */; };
 		BAC6D72A1EA17BA500C7FB53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAC6D7281EA17BA500C7FB53 /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		BAC6D72F1EA17BA500C7FB53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAC6D72D1EA17BA500C7FB53 /* LaunchScreen.storyboard */; };
 		BAC6D73A1EA17BA500C7FB53 /* HowManyScreensTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC6D7391EA17BA500C7FB53 /* HowManyScreensTests.swift */; };
 		BAC6D7451EA17BA500C7FB53 /* HowManyScreensUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC6D7441EA17BA500C7FB53 /* HowManyScreensUITests.swift */; };
+		BAC6D7531EA186AE00C7FB53 /* AppleTVViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC6D7521EA186AE00C7FB53 /* AppleTVViewController.swift */; };
+		BAC6D7551EA187BF00C7FB53 /* ScreenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC6D7541EA187BF00C7FB53 /* ScreenManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA2687861EA272040015B4EB /* THX.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = THX.mp3; sourceTree = "<group>"; };
 		BAC6D7211EA17BA500C7FB53 /* HowManyScreens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HowManyScreens.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAC6D7241EA17BA500C7FB53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BAC6D7261EA17BA500C7FB53 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,8 @@
 		BAC6D7401EA17BA500C7FB53 /* HowManyScreensUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HowManyScreensUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAC6D7441EA17BA500C7FB53 /* HowManyScreensUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowManyScreensUITests.swift; sourceTree = "<group>"; };
 		BAC6D7461EA17BA500C7FB53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAC6D7521EA186AE00C7FB53 /* AppleTVViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleTVViewController.swift; sourceTree = "<group>"; };
+		BAC6D7541EA187BF00C7FB53 /* ScreenManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +106,11 @@
 				BAC6D7241EA17BA500C7FB53 /* AppDelegate.swift */,
 				BAC6D7261EA17BA500C7FB53 /* ViewController.swift */,
 				BAC6D7281EA17BA500C7FB53 /* Main.storyboard */,
+				BAC6D7541EA187BF00C7FB53 /* ScreenManager.swift */,
+				BAC6D7521EA186AE00C7FB53 /* AppleTVViewController.swift */,
 				BAC6D72B1EA17BA500C7FB53 /* Assets.xcassets */,
 				BAC6D72D1EA17BA500C7FB53 /* LaunchScreen.storyboard */,
+				BA2687861EA272040015B4EB /* THX.mp3 */,
 				BAC6D7301EA17BA500C7FB53 /* Info.plist */,
 			);
 			path = HowManyScreens;
@@ -193,6 +202,7 @@
 				TargetAttributes = {
 					BAC6D7201EA17BA500C7FB53 = {
 						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = K96CBFZ59L;
 						ProvisioningStyle = Automatic;
 					};
 					BAC6D7341EA17BA500C7FB53 = {
@@ -234,6 +244,7 @@
 			files = (
 				BAC6D72F1EA17BA500C7FB53 /* LaunchScreen.storyboard in Resources */,
 				BAC6D72C1EA17BA500C7FB53 /* Assets.xcassets in Resources */,
+				BA2687871EA272040015B4EB /* THX.mp3 in Resources */,
 				BAC6D72A1EA17BA500C7FB53 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,8 +270,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAC6D7551EA187BF00C7FB53 /* ScreenManager.swift in Sources */,
 				BAC6D7271EA17BA500C7FB53 /* ViewController.swift in Sources */,
 				BAC6D7251EA17BA500C7FB53 /* AppDelegate.swift in Sources */,
+				BAC6D7531EA186AE00C7FB53 /* AppleTVViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +427,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEBUG_ACTIVITY_MODE = disable;
+				DEVELOPMENT_TEAM = K96CBFZ59L;
 				INFOPLIST_FILE = HowManyScreens/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.elfinda.HowManyScreens;
@@ -426,6 +441,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEBUG_ACTIVITY_MODE = "";
+				DEVELOPMENT_TEAM = K96CBFZ59L;
 				INFOPLIST_FILE = HowManyScreens/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.elfinda.HowManyScreens;
@@ -507,6 +524,7 @@
 				BAC6D74B1EA17BA500C7FB53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BAC6D74C1EA17BA500C7FB53 /* Build configuration list for PBXNativeTarget "HowManyScreensTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +533,7 @@
 				BAC6D74E1EA17BA500C7FB53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BAC6D74F1EA17BA500C7FB53 /* Build configuration list for PBXNativeTarget "HowManyScreensUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +542,7 @@
 				BAC6D7511EA17BA500C7FB53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
